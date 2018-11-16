@@ -1,0 +1,98 @@
+.banner{
+    max-width: 1940px;
+    height: 450px;
+    background: url("../img/yq0KXFaEn3GAEurjAAHIXeIri1o082.jpg") no-repeat;
+    position: relative;
+    margin:  0 auto;
+}
+.banner p{
+    position: absolute;
+    color: white;
+    width: 600px;
+    height: 80px;
+    font-weight: bold;
+    top: 40%;
+    right: 11%;
+    animation: bounceInLeft 4s infinite;
+}
+.banner span{
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    line-height: 45px;
+    font-size: 21px;
+    animation: bounceInUp 4s infinite;
+}
+.box1{
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+}
+.box1 .inner{
+    width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+}
+.cont{
+    width: 100%;
+    height: 600px;
+}
+.left{
+    width: 40%;
+    height: 600px;
+}
+.right{
+    width: 60%;
+    height: 600px;
+}
+.div1{
+    width: 60% ;
+    height: 120px;
+    border-bottom: 1px solid #000000;
+}
+.k{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #a4a4a4;
+    margin-right: 15px;
+}
+.k2{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #a4a4a4;
+}
+input{
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.o{
+    width: 616px;
+    height: 200px;
+    border: 1px solid #a4a4a4;
+    margin: 129px 0;
+}
+.tj{
+    width: 228px;
+    height: 48px;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 20px;
+    background: #34373e;
+}
+.tj:hover{
+    border: 1px solid #34373e;
+    background: white;color: black;
+    cursor: pointer;
+}
+.pp2{
+    animation: fadeInRightBig 2s;
+}

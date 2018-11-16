@@ -1,0 +1,29 @@
+footer{
+    width: 100% ;
+    height: 378px;
+    margin: auto;
+    background: #333438;
+}
+footer .inner{
+    width: 1200px;
+    height: 378px;
+    margin: auto;
+}
+.li{
+    width: 150px;
+    height: 300px;
+    float: left;
+    margin: 51px;
+}
+.zuo{
+    width: 47px;
+    margin-left: -36px;
+}
+.wqd-svgicon{
+    width: 30px;
+    display: block;
+    margin-bottom: 3px;
+}
+.uu li{
+    margin: 3px;
+}

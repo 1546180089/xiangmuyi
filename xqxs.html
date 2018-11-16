@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>详情显示</title>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/xqxs.css"/>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+<header id="header"></header>
+    <div class="main">
+        <div class="inner">
+            <div class="banner">
+                <div style="width: 99.1%;height: 700px;border: 1px solid #0000002e;overflow: hidden;">
+                    <ul class="tu">
+                        <li>
+                            <img src="img/yq0KX1aDiPmASMnfAACZ3YyW6ac938.png" alt=""/>
+                        </li>
+                        <li>
+                            <img src="img/yq0KXlaDiSOAWrm7AACLh4IzMKM422.png" alt=""/>
+                        </li>
+                        <li>
+                            <img src="img/yq0KXlaDiSWAKQhzAACQi5cgT8k576.png" alt=""/>
+                        </li>
+                        <li>
+                            <img src="img/yq0KXVaDiQ-ALa0IAACrHfSO_Ec960.png" alt=""/>
+                        </li>
+                        <li>
+                            <img src="img/yq0KZFaDiMaAexm5AACSxnIpM4M825.png" alt=""/>
+                        </li>
+                    </ul>
+                </div>
+                <ul id="imagegallery">
+                    <li  class="act">
+                            <img src="img/yq0KX1aDiPmASMnfAACZ3YyW6ac938.png" alt=""/>
+                    </li>
+                    <li>
+                            <img src="img/yq0KXlaDiSOAWrm7AACLh4IzMKM422.png" alt=""/>
+                    </li>
+                    <li>
+                            <img src="img/yq0KXlaDiSWAKQhzAACQi5cgT8k576.png" alt=""/>
+                    </li>
+                    <li>
+                            <img src="img/yq0KXVaDiQ-ALa0IAACrHfSO_Ec960.png" alt=""/>
+                    </li>
+                    <li>
+                            <img src="img/yq0KZFaDiMaAexm5AACSxnIpM4M825.png" alt=""/>
+                    </li>
+                </ul>
+            </div>
+            <section class="met-editor clearfix">
+                <h4 style="text-align: center;">
+                    <strong>
+                        <span style="font-family: 微软雅黑, MicrosoftYaHei;">详情展示</span>
+                    </strong>
+                </h4>
+                <p style="text-align: center;">
+                    <strong>
+                        <span style="font-family: 微软雅黑, MicrosoftYaHei;"><br></span>
+                    </strong>
+                </p>
+                <p style="text-align: center;">
+                    <span style="font-family: 微软雅黑, MicrosoftYaHei;">JingHong是国内工业物联网领域的先行者，国家工业互联网标准委员会成员。致力于服务制造型企业，通过提供“设备物联”和</span>
+                </p>
+                <p style="text-align: center;"><span style="font-family: 微软雅黑, MicrosoftYaHei;">“智慧工业”</span><span style="text-align: center; font-family: 微软雅黑, MicrosoftYaHei;">两种类型的解决方案，</span><span style="text-align: center; font-family: 微软雅黑, MicrosoftYaHei;">帮助其完成从“提供产品”向“价值服务”和“高效运营”的转型升级，从而达到工业4.0时代的要求。</span></p><p><span style="text-align: center; font-family: 微软雅黑, MicrosoftYaHei;"><br></span></p>
+                <p style="text-align: center;"><span style="font-family: 微软雅黑, MicrosoftYaHei;">JingHong物联网解决方案已经成功应用于锅炉、空压机、PLC工控、动力设备、变频器、消防安防、工程机械、水处理、工业燃烧器、</span></p><p style="text-align: center;">
+                <span style="font-family: 微软雅黑, MicrosoftYaHei;">压力容器、热泵等诸多领域，</span>
+                <span style="font-family: 微软雅黑, MicrosoftYaHei;">现有客户和合作伙伴包括西门子（中国）、先创新能源、立升净水、富邦股份等诸多国内外行业标杆企业，享有良好的口碑。</span></p><p><span style="font-family: 微软雅黑, MicrosoftYaHei;"><br></span></p>
+                <p><span style="font-family: 微软雅黑, MicrosoftYaHei;"></span></p><p style="text-align: center"><img src="img/1535192185131087.jpg" title="网站关键词" alt="网站关键词"></p><p><span style="font-family: 微软雅黑, MicrosoftYaHei;"></span><br></p>									</section>
+        </div>
+    </div>
+<footer id="footer"></footer>
+<script>
+    $(function () {
+        $("#header").load("head.html");
+        $("#footer").load("footer.html");
+    })
+    var index = 0;
+    var timer = null;
+    var imgWidth = $(".tu li").width();
+     $("#imagegallery li").click(function () {
+         index = $(this).index();
+         $(this).addClass("act").siblings().removeClass("act");
+         $(".tu").animate({"left": -(index)* imgWidth})
+     });
+    var right = function () {
+        index++;
+        if(index == $("#imagegallery li").length){
+            index = 0;
+            $(".tu").animate({"left": 0});
+        }
+        $(".tu").animate({"left": -(index) * imgWidth});
+        $("#imagegallery li").eq(index).addClass("act").siblings().removeClass("act");
+
+    }
+    setInterval(right,2000)
+    $(window).on("scroll", function () {
+        var b = $(window).scrollTop();
+        if(b>700){
+            $(".met-editor p").addClass("pp4");
+        }
+        if(b>1200){
+            $("footer span").addClass("pp2");
+        }
+    })
+</script>
+
+</body>
+</html>

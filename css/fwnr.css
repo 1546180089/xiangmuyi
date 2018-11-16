@@ -1,0 +1,264 @@
+body{
+    max-width: 1940px;
+    margin: 0 auto;
+}
+
+.banner{
+    max-width: 1940px;
+    height: 450px;
+    background: url("../img/yq0KXFaDy1qAdK_9AAGOEJMCw6Q073.jpg") no-repeat;
+    position: relative;
+    margin:  0 auto;
+}
+.banner p{
+    position: absolute;
+    color: white;
+    width: 600px;
+    height: 80px;
+    font-weight: bold;
+    top: 40%;
+    right: 11%;
+    animation: bounceInLeft 4s infinite;
+}
+.banner span{
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    line-height: 45px;
+    font-size: 21px;
+    animation: bounceInUp 4s infinite;
+}
+
+.box_1{
+    width: 80%;
+    margin: 0 auto;
+}
+.cont{
+    width: 100%;
+    height: 210px;
+}
+.cont ul li{
+    width: 395px;
+    height: 190px;
+    float: left;
+    margin-right: 10px;
+}
+.left{
+    width: 20%;
+    height: 190px;
+}
+.div{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #000000;
+    position: relative;
+}
+.con{
+    width: 60px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.right{
+    width: 70%;
+
+}
+.box_2{
+    width: 100%;
+    height: 1080px;
+    background: url("../img/yq0KX1aD1oWALm2zAAHIsOL__Do347.jpg");
+    overflow: hidden;
+}
+.nei{
+    width: 80%;
+    height: 650px;
+    margin: 0 auto;
+
+}
+.nei ul li{
+    width: 33%;
+    height: 334px;
+    float: left;
+    box-sizing: border-box;
+    padding: 40px;
+    border: 1px solid #a4a4a45e;
+    position: relative;
+}
+.nei ul{
+    width: 100%;
+    height: 668px;
+    background: white;
+}
+.con1{
+    width: 50px;
+    position: absolute;
+    top: 15%;
+    left: 40% ;
+}
+.box_3{
+    width: 80%;
+    height: 800px;
+    margin:  0 auto;
+}
+.content{
+    width: 100% ;
+    height: 650px;
+    position: relative;
+}
+.div2{
+    width: 400px;
+    height: 400px;
+    border: 1px solid #00000040;
+    border-radius: 50%;
+    position: absolute;
+    top: 11%;
+    left: 11%;
+}
+.div1{
+    width: 515px;
+    height: 515px;
+    border: 1px solid #00000040;
+    border-radius: 50%;
+    position: absolute;
+    top: 6%;
+    left: 27%;
+}
+.wqd-svg{
+    width: 98px;
+    height: 81px;
+    position: absolute;
+    top: 10%;
+    left: 33% ;
+}
+.wqd-svg>* {
+    fill: #35373e;
+}
+.svg{
+    width: 30px;
+}
+.wqd-svg1{
+    width: 98px;
+    height: 81px;
+    position: absolute;
+    top: 10%;
+    left: 55% ;
+}
+.wqd-svg1>* {
+    fill: #35373e;
+}
+.wqd-svg2{
+    width: 98px;
+    height: 81px;
+    position: absolute;
+    top: 55%;
+    left: 31% ;
+}
+.wqd-svg2>* {
+    fill: #35373e;
+}
+.wqd-svg3{
+    width: 98px;
+    height: 81px;
+    position: absolute;
+    top: 53%;
+    left: 58% ;
+}
+.wqd-svg3>* {
+    fill: #35373e;
+}
+.one{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+.two{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 2%;
+    left: 64%;
+}
+.three{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 46%;
+    left: 3%;
+}
+.four{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 46%;
+    left: 68%;
+}
+.box_8{
+    width: 100% ;
+    height: 258px;
+    margin: auto;
+    background: #FFFFFF;
+}
+.svgicon{
+    width: 55px;
+    margin: -4px 138px;
+}
+.box_8 .inner{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+
+}
+.pp{
+    animation: bounceInDown 2s;
+}
+.pp2{
+    animation: fadeInRightBig 2s;
+}
+.p8{
+    animation: flipInY 2s;
+}
+.pp1{
+    animation: bounceInLeft 2s;
+}
+.pp6{
+    animation: fadeOutDownBig 2s;
+}
+.p2{
+    animation: bounceInRight 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

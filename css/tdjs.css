@@ -1,0 +1,161 @@
+.banner{
+    max-width: 1940px;
+    height: 450px;
+    background: url("../img/yq0KZVaDx1WAPFibAAMesiJMCSk265.jpg") no-repeat;
+    position: relative;
+    margin:  0 auto;
+}
+.banner p{
+    position: absolute;
+    color: white;
+    width: 600px;
+    height: 80px;
+    font-weight: bold;
+    top: 40%;
+    right: 11%;
+    animation: bounceInLeft 4s infinite;
+}
+.banner span{
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    line-height: 45px;
+    font-size: 21px;
+    animation: bounceInUp 4s infinite;
+}
+.box_9{
+    width: 1200px;
+    height: 900px;
+    margin: auto;
+}
+.da li{
+    float: left;
+    margin-right: 20px;
+    width: 349px;
+    height:392px ;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.da li:hover .mt{
+    display: block;
+}
+.tup{
+    width: 1200px;
+    margin: 0 auto;
+}
+.da li img{
+    width: 100%;
+}
+.mt{
+    width: 349px;
+    height:392px ;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0  ;
+    display: none;
+}
+.left{
+    width: 37%;
+    height:64px;
+    color: white;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    float: left;
+}
+.right{
+    width: 63%;
+    height:64px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.right ul li{
+    float: left;
+    width: 34px;
+    height: 34px;
+    margin-right: 5px;
+}
+.right ul li svg{
+    width: 100% ;
+    height: 100%;
+}
+.box_10{
+    width: 100%;
+    margin: auto;
+    height: 580px;
+    background-color: #f7f8fa;
+}
+.box_10 .inner{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.box_10 ul li{
+    width: 300px;
+    height: 300px;
+    float:left;
+}
+#elementId1451476091288 .wqd-svg>* {
+    stroke: #35383f;
+    fill: rgba(34,85,85,0);
+}
+.div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 31px;
+    border: 5px solid #000000;
+    position: relative;
+}
+.div2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 19%;
+    left: 18%;
+}
+.box_10 ul li p{
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+.box_8{
+    width: 100% ;
+    height: 258px;
+    margin: auto;
+    background: #FFFFFF;
+}
+.svgicon{
+    width: 55px;
+    margin: -4px 138px;
+}
+.box_8 .inner{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+
+}
+.tup ol li.active{
+    background: #e7e5e6;
+}
+.p1{
+    animation: bounceInDown 2s;
+}
+.div:hover{
+    transform: scale(1.1);
+}
+.p2{
+    animation: fadeInRightBig 2s;
+}
+.p3{
+    animation: fadeInDown 2s;
+}
+

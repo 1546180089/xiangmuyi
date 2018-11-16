@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <link rel="stylesheet" href="css/lxwm.css"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+<header id="header"></header>
+<main>
+    <div class="banner">
+        <p style="font-size: 38px;">你的创业梦想需要一个非同凡响的网站</p>
+        <span style="color:#FFFFFF;">本公司自由建站</span>
+    </div>
+    <div class="box1">
+        <div class="inner">
+            <span style="width: 1200px;font-size: 28px;text-align: center;margin: 50px auto;display: block;font-weight: bold;" class="ss pp">匠心打造,非同凡响</span>
+            <div style="width: 100px;height: 2px;background:#000;margin:-20px auto"></div>
+            <span style="color:#808080;margin: 50px auto;display: block;width: 1200px;text-align: center" class="pp">用本公司建网站,上手快.颜值高.跨多屏.自传播.全智能.</span>
+            <div class="cont">
+                <div class="left fl">
+                    <div class="div1">
+                        <strong style="line-height: 65px">联系地址</strong>
+                        <p style="font-size: 16px">高端创意本公司</p>
+                    </div>
+                    <div class="div1">
+                        <strong style="line-height: 65px">联系电话</strong>
+                        <p style="font-size: 16px">0123-456-789</p>
+                    </div>
+                    <div class="div1">
+                        <strong style="line-height: 65px">联系邮箱</strong>
+                        <p style="font-size: 16px">support@baidu.com</p>
+                    </div>
+                    <p style="font-size: 16px;line-height: 90px;">本公司是为创业而生的智能好用的H5建站平台</p>
+
+                </div>
+                <div class="right fr">
+                    <div class="k fl" style="margin-bottom: 10px">
+                        <input bordercol="#c7c6c6" style="border-color: rgb(199, 198, 198);" placeholder="姓名" name="name" autocomplete="off" type="text">
+                    </div>
+                    <div class="k2 fl" style="margin-bottom: 10px">
+                        <input bordercol="#c7c6c6" style="border-color: rgb(199, 198, 198);" placeholder="邮件" name="name" autocomplete="off" type="text">
+                    </div>
+                    <div class="k fl">
+                        <input bordercol="#c7c6c6" style="border-color: rgb(199, 198, 198);" placeholder="电话" name="name" autocomplete="off" type="text">
+                    </div>
+                    <div class="k2 fl">
+                        <input bordercol="#c7c6c6" style="border-color: rgb(199, 198, 198);" placeholder="主题" name="name" autocomplete="off" type="text">
+                    </div>
+                    <div class="o clear">
+                        <textarea bordercol="#c7c6c6" style="border-color: rgb(199, 198, 198);" placeholder="详细内容"></textarea>
+                    </div>
+                    <div class="tj">
+                        提交
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer id="footer"></footer>
+<script>
+    $(function () {
+        $("#header").load("head.html");
+        $("#footer").load("footer.html");
+    })
+    $(window).on("scroll", function () {
+        var b = $(window).scrollTop();
+        console.log(b);
+        if(b>980){
+            $("footer span").addClass("pp2");
+        }
+    })
+</script>
+</body>
+</html>
